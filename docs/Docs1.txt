@@ -1,4 +1,11 @@
 2025-03-10
-    Saker som jag glömnde bort och behövde kolla up
+    
+    
+**Saker som jag glömnde bort och behövde kolla up**
     npm init -y
     npm install -g npm
+    npm install webpack webpack-cli webpack-dev-server --save-dev
+
+**Vart jag hittade svaren på Saker**
+    länkar:
+        http://geeksforgeeks.org/npm-run-dev/

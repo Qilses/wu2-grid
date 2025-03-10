@@ -1,0 +1,21 @@
+{
+  "name": "wu2-grid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "dev": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qilses/wu2-grid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Qilses/wu2-grid/issues"
+  },
+  "homepage": "https://github.com/Qilses/wu2-grid#readme"
+}

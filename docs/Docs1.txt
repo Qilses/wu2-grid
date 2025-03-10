@@ -1,0 +1,4 @@
+2025-03-10
+    Saker som jag glömnde bort och behövde kolla up
+    npm init -y
+    npm install -g npm

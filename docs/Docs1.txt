@@ -4,8 +4,25 @@
 **Saker som jag glömnde bort och behövde kolla up**
     npm init -y
     npm install -g npm
+    npm install -g nodemon
     npm install webpack webpack-cli webpack-dev-server --save-dev
 
 **Vart jag hittade svaren på Saker**
     länkar:
         http://geeksforgeeks.org/npm-run-dev/
+        https://www.npmjs.com/package/nodemon
+
+        https://www.youtube.com/watch?v=r910bN0noic&ab_channel=PreCodeCamp
+        För att göra färgade låder till min  css så jag kunde see hur griden såg utt.
+        
+
+**allmänt**
+    efter att ha installerat nodemon så kunde jag köra npm run dev för att 
+    få upp en local host funkade, ändå inte
+
+**grid**
+    grid-template-columns: 90px 50px 120px;
+    grid-template-rows: 50px 100px;
+    Rows säger hur stor y-axeln ska vara per "låda"
+    medans columns säger hur stor x-axeln ska vara per "låda"
+    - prioritering är från höger

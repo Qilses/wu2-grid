@@ -1,33 +1,49 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/style.css">
-   
-    <title>css grid test</title>
-  </head>
-  <body>
-    <style>
-        .grid-tester{
-            display: grid;
-        }
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/style.css">
 
-    </style>
-    <div class="h2"><h2>test</h2></div>
-    <div class="color-grid">
-         <div class="grid-tester">
-            <div class="color-box">1</div>
-	        <div class="color-box">2</div> <div class="color-box">3</div>
-            <div class="color-box">4</div>
-	        <div class="color-box">5</div>
-	        <div class="color-box">6</div>
-         </div>
+  <title>css grid test</title>
+</head>
+
+<body>
+  <style>
+    .grid-tester {
+      display: grid;
+      text-align: center;
+      margin: 1vh;
+      grid-template-rows: repeat(2, auto);
+      grid-template-columns: repeat(4, auto);
+          
+      
+
+    } 
+
+    .containerIMG {
+      display: flex;
+    }
+  </style>
+  <main>
+    <h2>test</h2>
+    <div class="grid-tester">
+      <div class="color-box">1 </div>
+      <div class="color-box">2 </div>
+      <div class="color-box">3 </div>
+      <div class="color-box">4 </div>
+      <div class="color-box">5 </div>
+      <div class="color-box">6 </div>
+      <div class="color-box">7 </div>
+      <div class="color-box">8 </div>
     </div>
-    <div class="containerIMG"><img src="img/hq720.png" alt="katt png"></div>
-</div>
+    </div>
+    <div class="containerIMG">
+      <img src="img/hq720.png" alt="katt png">
+    </div>
+    </div>
 </body>
+
 </html>

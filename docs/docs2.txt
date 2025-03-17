@@ -1,0 +1,24 @@
+2025-03-17
+
+**Bra cmd att komma ihåg**
+    shift+alt+f 
+    **cmd för ubuntu**
+    mkdir "namn" -> skapar en ny mapp 
+    touch "namn" -> skapar en ny fil 
+
+**bra grid saker att veta**
+    grid-column-gap: 1cm;
+    grid-row-gap: 100px;
+
+Ifall du vill andvända båda på samma rad, 
+första är row andra är column,
+Om det är ett number så funkar den som margin eller padding
+        grid-gap: 100px 1em
+
+
+
+grid-template-rows: repeat(2, auto);
+grid-template-columns: repeat(4, auto);
+    
+
+    

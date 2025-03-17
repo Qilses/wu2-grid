@@ -14,17 +14,23 @@
   <style>
     .grid-tester {
       display: grid;
-      text-align: center;
       margin: 1vh;
       grid-template-rows: repeat(2, auto);
-      grid-template-columns: repeat(4, auto);
-          
-      
+      grid-template-columns: repeat(3, auto);
 
-    } 
+    }
+
+    .grid-special {
+      grid-row:    2 / span 4;
+      grid-column: span 2;
+      
+    }
 
     .containerIMG {
-      display: flex;
+      display: inline-grid;
+      align-items: bottom;
+      margin-top: 10rem;
+
     }
   </style>
   <main>
@@ -35,14 +41,14 @@
       <div class="color-box">3 </div>
       <div class="color-box">4 </div>
       <div class="color-box">5 </div>
-      <div class="color-box">6 </div>
-      <div class="color-box">7 </div>
-      <div class="color-box">8 </div>
+      <div class="grid-special"><img src="img/hq720.png" alt="katt png"> </div>
+      <div class="color-box">7</div>
+      <div class="color-box">8</div>
+
     </div>
-    </div>
+
     <div class="containerIMG">
       <img src="img/hq720.png" alt="katt png">
-    </div>
     </div>
 </body>
 

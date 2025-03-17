@@ -21,4 +21,22 @@ grid-template-rows: repeat(2, auto);
 grid-template-columns: repeat(4, auto);
     
 
+**Vissa grid elemnt är till specefika saker och vissa är till mer generela saker**
+    Exeple på detta är:
+     grid-column-start: 1;
+     grid-column-end: 4;
+
+Dessa är till mer specefika elemnt och inte till alla!
+    *Men hur vet jag skillnaden mellan dom?*
+Vi tar det tigigare exemplet, Som vi ser sä säger
+den till att göra en ny row som börgar på column 1 och slutar på column 4 
+
+**Grids är lite intresanta eftersom att de arbetar med linjer**
+
+En grid är en linje så ifall du vill ha en låda med en text 
+i sä behöver du en grid som har åtminstånde 2 grid linjer. 
+ifall du vill ha 3 låder så behöver du göra 4 grid linjer
+
+**Nya saker**
+    span -> placera ett iteam på slutet
     

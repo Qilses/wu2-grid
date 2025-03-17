@@ -5,11 +5,16 @@ body, html {
 }
 
 .color-box {
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
+        font-weight: bold;
     margin: 1vh;
     background-color: rgb(7, 230, 52);
     border: rgb(190, 24, 24);
-    border-radius: .2rem;
+}
+
+.text-box {
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1vh;
 }

@@ -38,5 +38,5 @@ i sä behöver du en grid som har åtminstånde 2 grid linjer.
 ifall du vill ha 3 låder så behöver du göra 4 grid linjer
 
 **Nya saker**
-    span -> placera ett iteam på slutet
+    span -> packar ihop column eller rows.
     

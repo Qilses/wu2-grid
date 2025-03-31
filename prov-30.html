@@ -1,61 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="prov-30.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="prov-30.css">
     <title>prov</title>
 </head>
+
 <body>
     <style>
         .container1 {
-            display:grid;
+            display: grid;
             grid-template-rows: 15rem;
-            grid-template-columns: 57% 40%;
-            
+            grid-template-columns: 60% 40%;
+
         }
+
         .container2 {
             display: grid;
             grid-template-rows: repeat(1, 15rem);
-            grid-template-columns: 40% 58%;
-            
+            grid-template-columns: 40% 60%;
+
         }
+
         .container3 {
-            display:grid;
+            display: grid;
             grid-template-rows: 15rem;
-            grid-template-columns: 99.5%;
-            
+            grid-template-columns: 100%;
+
         }
-        .boxes{
+
+        .boxes {
             display: grid;
             justify-self: stretch;
             font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
             margin: 1vh;
-            background-color: blue;
+            background-color: rgb(255, 255, 255);
         }
-        .text-boxes{
-            background-color: aliceblue;
-            text-align: center;
-            
-        }
-        
-    </style>
- <main>
-    <div class="container1">
-      <div class="boxes"><img src="img/hq720.pn" alt="katt png">1 </div>
-      <div class="boxes"><img src="img/hq720.pg" alt="katt png">2 </div>
-    </div>
-      <div class="container2">
-      <div class="boxes"><img src="img/hq720.ng" alt="katt png">3 </div>
-      <div class="boxes"><img src="img/hq720png" alt="katt png">4 </div>
-    </div>
-    <div class="container3">
-      <div class="boxes"><img src="img/hq72.png" alt="katt png">5 </div>     
-    
-    </div>
 
-   
-    
+        .text-boxes {
+            color: rgb(0, 0, 0);
+            text-align: center top;
+
+        }
+        img{
+            justify-self: stretch;
+            height: 11.8rem;
+        
+        }
+    </style>
+    <main>
+        <div class="container1">
+            <div class="boxes">
+                <div class="text-boxes"> 1</div>
+                <img src="img/hq720.png" alt="katt png">
+            </div>
+            <div class="boxes">
+                <div class="text-boxes"> 2</div>
+                <img src="img/hq720.png" alt="katt png">
+            </div>
+        </div>
+        <div class="container2">
+            <div class="boxes">
+                <div class="text-boxes"> 3</div>
+                <img src="img/hq720.png" alt="katt png">
+            </div>
+            <div class="boxes">
+                <div class="text-boxes"> 4</div>
+                <img src="img/hq720.png" alt="katt png">
+            </div>
+        </div>
+        <div class="container3">
+            <div class="boxes">
+                <div class="text-boxes"> 5</div>
+                <img src="img/hq720.png" alt="katt png">
+            </div>
+
+        </div>
+
+
+
 </body>
+
 </html>
